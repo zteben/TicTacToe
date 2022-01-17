@@ -1,0 +1,38 @@
+<html>
+<head>
+	<title>Web-Tac-Toe</title>
+	<link rel="stylesheet" type="text/css" href="iframe.css">
+</head>
+<body> 
+<br>
+<!-- Button to the instructions that explains how to play tic-tac-toe -->
+<div align="right">
+<a href="howtoplay.html"><img src="images/question-mark.png" width="50" height="50" title="How to Play"></a>
+</div>
+
+<div align="center">
+<h1> <a href="game.html">WEB-TAC-TOE</a> </h1> 
+
+
+
+<!-- 3 by 3 game board-->
+<iframe class="frame-border" src="frame.html" style="border: 3px solid black">
+</iframe><br><br>
+
+
+
+<button onclick="goBack()">undo</button>
+<!-- code for undo button -->
+<script>
+	function goBack() 
+	{window.history.back();}
+</script>
+
+<pre>
+		 <a href="index-fp.html">Home</a>	 	   <a href="game.html">New Game</a>		
+
+</pre>
+
+</div>
+</body>
+</html>
